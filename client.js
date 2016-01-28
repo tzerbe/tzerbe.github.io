@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  
+
   //Only if we are on root do we wanna transform to network graph
   var isIndexPage = location.pathname === "/";
   var BODY_SELECTOR = ".page-content";
@@ -44,10 +44,22 @@ $(document).ready(function(){
 
   function getNodes(){
     return $("article").map(function(index, post){
-      return {
-        id: index,
-        label: $(post).find("h1").html()
+      var hasImage = $(post).find("img").length > 0;
+      if(hasImage){
+        return {
+          id: index,
+          label: $(post).find("h1").html(),
+          shape: "image",
+          image: $(post).find("img").attr("src")
+        }
+      } else {
+        return {
+          id: index,
+          label: $(post).find("h1").html(),
+          shape: "dot"
+        }
       }
+      
     }).toArray();
   }
 
@@ -55,7 +67,7 @@ $(document).ready(function(){
     var body = $(BODY_SELECTOR);
     var height = "calc(100vh - "+getHeaderHeight()+")";
     body.css("height",height);
-
+    body.css("paddding","0");
     makeBodyVisible(body);
     return body[0];
   }
