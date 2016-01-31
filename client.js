@@ -2,7 +2,23 @@ $(document).ready(function(){
 
   //Only if we are on root do we wanna transform to network graph
   var isIndexPage = location.pathname === "/";
-  var BODY_SELECTOR = ".page-content";
+  var BODY_SELECTOR = ".content";
+  var SITE_SIDEBAR = ".sidebar";
+
+  var NODE_FONT = {
+    color: "#839496",
+    face: 'Verdana, serif'
+  };
+
+  var NODE_COLOR = {
+    border: "#2aa198",
+    background: "#7dded6",
+    highlight: {
+      border: "#7dded6",
+      background: "#2aa198"
+    }
+  }
+
   makeBodyVisible();
   if(!isIndexPage){
     return;
@@ -50,13 +66,18 @@ $(document).ready(function(){
           id: index,
           label: $(post).find("h1").html(),
           shape: "image",
-          image: $(post).find("img").attr("src")
+          image: $(post).find("img").attr("src"),
+          font: NODE_FONT,
+          color: NODE_COLOR
+
         }
       } else {
         return {
           id: index,
           label: $(post).find("h1").html(),
-          shape: "dot"
+          shape: "dot",
+          font: NODE_FONT,
+          color: NODE_COLOR
         }
       }
       
@@ -65,15 +86,14 @@ $(document).ready(function(){
 
   function getContainer(){
     var body = $(BODY_SELECTOR);
-    var height = "calc(100vh - "+getHeaderHeight()+")";
-    body.css("height",height);
-    body.css("paddding","0");
+    var width = "calc(100vw - "+getSidebarWidth()+")";
+    body.css("width",width);
     makeBodyVisible(body);
     return body[0];
   }
 
-  function getHeaderHeight(){
-    return $(".site-header")[0].getBoundingClientRect().height +"px";
+  function getSidebarWidth(){
+    return $(SITE_SIDEBAR)[0].getBoundingClientRect().width +"px";
   }
 
   function getTags(){

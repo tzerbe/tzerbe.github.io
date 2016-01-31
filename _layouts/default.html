@@ -1,20 +1,56 @@
 <!DOCTYPE html>
 <html>
+<head>
 
-  {% include head.html %}
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
 
-  <body>
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 
-    {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/colors-dark.css" | prepend: site.baseurl }}">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.12.0/vis.min.css">
+</head>
+
+<body>
+
+
+  <div class="page">
+
+    <div class="sidebar">
+      <header>
+        <h1><a href="/"> {{ site.name }}</a></h1>
+        <p>{{ site.description }}</p>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </nav>
     </div>
 
-    {% include footer.html %}
+    <div class="content">
+      {{ content }}
+    </div>
 
-  </body>
+  </div>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.12.0/vis.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="../client.js"></script>
+
+
+
+</body>
 </html>
