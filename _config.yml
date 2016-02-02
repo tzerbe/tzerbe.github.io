@@ -6,17 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Thea's Blog
-name: Thea's Blog
+title: Thinking Non-Linearly
+name: Thinking Non-Linearly
 email: zerbethea@gmail.com
 permalink: /:year/:month/:day/:title/
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: "'The inner machanations of my mind are an enigma.' - Patrick Star"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "tzerbe@github.io" # the base hostname & protocol for your site
-twitter_username: tzerbe
+url: "tzerbe.github.io" # the base hostname & protocol for your site
+twitter_username:
 github_username:  tzerbe
 
 # Build settings
