@@ -11,6 +11,9 @@ layout: default
   {% else %}
     <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
   {% endif %}
+  {% if page.author %}
+    <p class="post-author">by {{ page.author }}</p>
+  {% endif %}
 
   <div class="post-content">{{ content }}</div>
 

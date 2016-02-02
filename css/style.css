@@ -34,10 +34,16 @@ table {
 #tags {
     display: none;
 }
-
 .home {
     display: none;
 }
+
+.post-author {
+  font-size: 10px;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
 body {
 	font-family: Verdana, serif;
 	font-size: 13px;

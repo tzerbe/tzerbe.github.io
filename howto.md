@@ -20,3 +20,23 @@ $ git commit -m "Message describing your posts"
 
 How to update your actual blog
 $ git push
+
+How to stop the localhost server
+1. Go into the terminal window where its running
+Press CTRL+c
+
+After editing _config.yml you have to do $ jekyll serve or $ jekyll build 
+
+# THE SYNTAX
+
+## Markdown
+The syntax you'll be writing your posts in is called [Markdown](https://daringfireball.net/projects/markdown/syntax)
+
+## Meta Info
+The syntax of the meta info at the top of your post is used to generate specific data on your post, author is used to put the author on the page, tags is used to link the post to other posts
+---
+layout: post
+title: 312 Main
+tags: [economy, wow, js]
+author: "Thea Zerbe"
+---
