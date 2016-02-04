@@ -10,13 +10,16 @@ $(document).ready(function(){
     face: 'Verdana, serif'
   };
 
+  var NOODE_SECONDARY = {
+    border: "#7dded6",
+    background: "#2aa198"
+  }
+
   var NODE_COLOR = {
     border: "#2aa198",
     background: "#7dded6",
-    highlight: {
-      border: "#7dded6",
-      background: "#2aa198"
-    }
+    highlight: NOODE_SECONDARY,
+    hover: NOODE_SECONDARY
   }
 
   makeBodyVisible();
@@ -35,7 +38,8 @@ $(document).ready(function(){
 
   var options = {
     interaction: {
-      selectable:true
+      selectable:true,
+      hover:true
     }
   };
 
