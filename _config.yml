@@ -10,7 +10,7 @@ title: Thinking Non-Linearly
 name: Thinking Non-Linearly
 email: zerbethea@gmail.com
 permalink: /:year/:month/:day/:title/
-description: "'The inner machanations of my mind are an enigma.' - Patrick Star"
+description: "Hover, drag, or click to explore this interactive map of my mind."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "tzerbe.github.io" # the base hostname & protocol for your site
 twitter_username:
