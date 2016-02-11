@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Climate Change and the Syrian Refugee Crisis
-tags: [conflict, climate_wars, climate_change]
+tags: [conflict, climate_wars, climate_change, state_of_exception]
 author: Thea Zerbe
 ---
 I have a lot of anxieties about climate change. I hate the image that I have in my head of a dying world where biodiversity dwindles and ecosystems slowly degrade and there is no more green and living beings are suffering. I am also anxious about the possibility for climate change to catalyze global conflict.

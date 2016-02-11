@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sharing Economy
-tags: [sharing_economy]
+tags: [sharing_economy, accessibility, tech]
 author: Thea Zerbe
 ---
 

@@ -84,7 +84,7 @@ $(document).ready(function(){
           color: NODE_COLOR
         }
       }
-      
+
     }).toArray();
   }
 

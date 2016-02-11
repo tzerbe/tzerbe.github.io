@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Hover, click, and drag to explore this interactive map of my mind.
+This blog is an interactive mind map that details the learning, thinking, and exploring that I've done over the course of my Semester in Dialogue.

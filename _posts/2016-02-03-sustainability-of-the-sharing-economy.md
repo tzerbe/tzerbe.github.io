@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sustainability of the Sharing Economy
-tags: [sharing_economy]
+tags: [sharing_economy, sustainability]
 author: Harald Heinrichs
 ---
 [Sharing Economy: A Potential New Pathway to Sustainability](../../../../images/out.pdf)
