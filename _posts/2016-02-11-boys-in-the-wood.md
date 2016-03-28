@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The Black Lips
-tags: [nihilism]
+title: the black lips and nihilism
+tags: [nihilism, lessons_from_music]
 ---
 A true nihilist would believe in nothing, have no loyalties, and no purpose other than, perhaps, an impulse to destroy.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: State of Exception
+title: state of exception
 tags: [collateral_damage, conflict, state_of_exception]
 author: Thea Zerbe
 ---

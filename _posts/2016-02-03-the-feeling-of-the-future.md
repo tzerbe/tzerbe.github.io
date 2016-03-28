@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Feeling of the Future
+title: the feeling of the future
 tags: [envisioning_futures, music]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Climate Change and the Syrian Refugee Crisis
+title: climate change and the syrian refugee crisis
 tags: [conflict, climate_wars, climate_change, state_of_exception]
 author: Thea Zerbe
 ---

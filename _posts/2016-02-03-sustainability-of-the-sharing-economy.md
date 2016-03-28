@@ -1,9 +1,6 @@
 ---
 layout: post
-title: Sustainability of the Sharing Economy
+title: sustainability of the sharing economy
 tags: [sharing_economy, sustainability]
-author: Harald Heinrichs
 ---
-[Sharing Economy: A Potential New Pathway to Sustainability](../../../../images/out.pdf)
-
-Heinrichs' article "Sharing Economy: A Potential New Pathway to Sustainability" published in GAIA suggests that the sharing economy has much to offer sustainable development. He acknowledges, however, that there has been relatively little academic discourse on the sharing economy, and that the sustainability sciences should look more into the  socioenvironmental implications.
+While the sharing economy does not fit the bill entirely on social sustainability, it does have much to offer environmentally sustainable development. [Heinrichs' article](../../../../images/out.pdf) published in GAIA suggests that the sharing economy is a potential new pathway to sustainability. He acknowledges, however, that there has been relatively little academic discourse on the sharing economy, and that the sustainability sciences should look more into the  socioenvironmental implications.

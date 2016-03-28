@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Canadian Public Education
+title: canadian public education
 author: Thea Zerbe
 tags: [public_education]
 ---

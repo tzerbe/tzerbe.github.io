@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Waiting for Godot
+title: waiting for godot
 tags: [existential_nihilism]
 ---
 

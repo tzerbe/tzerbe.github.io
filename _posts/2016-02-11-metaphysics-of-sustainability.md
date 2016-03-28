@@ -1,5 +1,5 @@
 ---
 layout: post
-title: Metaphysics of Sustainability
+title: metaphysics of sustainability 
 tags: [environmental_nihilism, anthropocentrism]
 ---
