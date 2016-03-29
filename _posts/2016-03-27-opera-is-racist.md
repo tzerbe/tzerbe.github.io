@@ -1,8 +1,8 @@
 ---
 layout: post
-title: opera is racist
+title: opera is dead
 author: Thea Zerbe
-tags: [art_and_change, opera, madama_butterfly]
+tags: [art_and_change, opera, madama_butterfly, dead_things]
 ---
 Madama Butterfly, one of the most famous operas ever written, is tangled up in ethnic exoticism, colonial legacy, sexism, racial stereotyping, and elitism that have long been present in traditional opera. Butterfly was written by an Italian composer about a young Japanese bride, usually played by performers of any Asian ethnic background, and her tumultuous marriage with an American WWII Lieutenant. It is problematic on many levels.
 

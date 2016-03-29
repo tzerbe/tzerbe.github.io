@@ -4,7 +4,7 @@ title: conversation with a hedge pt. I
 author: Thea Zerbe
 tags: [hedges]
 ---
-![2/10/16 - Hedge on 18th and Highbury](../../../../images/Starhedge.jpg)
+![2/10/16 - Hedge on 18th and Highbury](../../../../images/starhedgecircle.png)
 
 Hedge: “Hi Thea! Can I ask you a question?”
 

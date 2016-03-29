@@ -4,7 +4,7 @@ title: sharing economy
 tags: [sharing_economy, accessibility, tech]
 author: Thea Zerbe
 ---
-![Quote](http://40.media.tumblr.com/0468b2391ee8242301d3b9b7334eb904/tumblr_nk923aZeVv1rb4yfjo1_500.jpg)
+![Quote](../../../../images/access.png)
 
 The 'sharing economy' is defined on Wikipedia as: 'peer-to-peer-based sharing of access to goods and services coordinated through community-based online services.' Examples of sharing economies are Uber, Airbnb, TaskRabbit, Craigslist, etc. This economic model has the potential to disrupt voracious consumerism, increase social cohesion, and be less resource intensive than our current system. As Trebor Scholz puts it, the concept of a 'sharing economy' is practically huggable!
 
