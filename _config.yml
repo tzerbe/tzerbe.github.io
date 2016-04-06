@@ -6,11 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Thinking Non-Linearly
-name: Thinking Non-Linearly
+title: Being Thea Zerbe
+name: Being Thea Zerbe
 email: zerbethea@gmail.com
 permalink: /:year/:month/:day/:title/
-description: "Hover, drag, or click to explore this interactive map of my mind."
+description: "Hover, click, or drag"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "tzerbe.github.io" # the base hostname & protocol for your site
 twitter_username:

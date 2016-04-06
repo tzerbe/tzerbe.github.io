@@ -1,6 +1,6 @@
 ---
 layout: post
-title: the future as told by giorgio moroder
+title: the future imagined by giorgio moroder
 tags: [envisioning_futures, lessons_from_music]
 
 ---

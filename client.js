@@ -159,7 +159,7 @@ function getTags(){
 
 function numericSort(a, b){
   if(a > b){
-    return 1; 
+    return 1;
   } else if(a < b){
     return -1;
   }
@@ -173,7 +173,7 @@ function numericSort(a, b){
  *  from: :id,
  *  to: :id
  * }]
- * @param  {Objects} tags 
+ * @param  {Objects} tags
  * @return {Array}
  */
 function getEdges(tags){
@@ -203,9 +203,9 @@ function getEdges(tags){
  * to get a unique identifier for a pair
  *
  * The idea here is that 1,2 and 2,1 should return the same
- * 
+ *
  * @param  {Object} edge Edge description
- * @return {Number}      
+ * @return {Number}
  */
 function transform(edge){
   var sorted = [edge.to, edge.from].sort(numericSort);
@@ -217,10 +217,10 @@ function transform(edge){
  * Returns a unique number based on a,b
  *
  * a,b is different from b,a
- * 
- * @param  {Number} a 
- * @param  {Number} b 
- * @return {Number}   
+ *
+ * @param  {Number} a
+ * @param  {Number} b
+ * @return {Number}
  */
 function pairingFunction(a, b){
   return Math.pow(2, a)*Math.pow(3, b);

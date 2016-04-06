@@ -5,4 +5,4 @@ tags: [personal_philosophy, water]
 ---
 "Drink water and stay lucid"
 
-~alexandrabsupertramp
+  ~alexandrabsupertramp

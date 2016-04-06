@@ -1,6 +1,6 @@
 ---
 layout: post
-title: the black lips and nihilism
+title: the black lips
 tags: [nihilism, lessons_from_music]
 ---
 ![blacklips](../../../../images/black-lips-new.png)
